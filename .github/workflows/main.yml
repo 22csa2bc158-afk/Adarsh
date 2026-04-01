@@ -40,7 +40,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyTelegramBotAPI pymongo requests certifi aiohttp pytz psutil
+          pip install pyTelegramBotAPI pymongo requests certifi aiohttp pytz psutil flask
 
       # 🔥 Run bot
       - name: Run bot
